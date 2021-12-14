@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMPRAS</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="listacompra.css">
+    
+</head>
+<body>
+    <header>
+        <h1>LISTA DE COMPRAS</h1>
+    </header>
+    <section>
+        <div>
+            <input type="text" name="texto" id="texto">
+            <input type="button" value="adicionar" onclick="verificarItem()">
+        </div>
+        <div>
+            <ul class="capitalized"></ul>
+        </div>
+        <div>
+            <button type="button" id="apagarSelecionados">Apagar Selecionados</button>
+        </div>
+        
+    </section>
+    <footer>
+        <p>&copy; Eduardo Martins</p>
+    </footer>
+    <script src='jquery.js'></script>
+    <script src="listacompra.js"></script>
+</body>
+</html>
