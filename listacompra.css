@@ -52,3 +52,7 @@ input#texto {
 .capitalized {
     text-transform: capitalize;
 }
+
+#title {
+    margin: 20px;
+}
